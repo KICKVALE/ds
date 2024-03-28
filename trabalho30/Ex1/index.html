@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salário</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <h1>Calculadora de Salário</h1>
+        <form id="salaryForm">
+            <label for="horasNormais">Horas Normais Trabalhadas no Ano:</label>
+            <input type="number" id="horasNormais" required>
+            <label for="horasExtras">Horas Extras Trabalhadas no Ano:</label>
+            <input type="number" id="horasExtras" required>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultContainer" class="hidden">
+            <h2>Resultado:</h2>
+            <div id="result"></div>
+        </div>
+    </div>  
+</body>
+</head>

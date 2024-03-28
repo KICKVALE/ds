@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cadastro de Estagiários</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Estagiários</h1>
+        <form id="internForm">
+            <label for="cod">Código do Estagiário:</label>
+            <input type="number" id="cod" required>
+            <label for="nome">Nome do Estagiário:</label>
+            <input type="text" id="nome" required>
+            <label for="ano">Ano de Nascimento:</label>
+            <input type="number" id="ano" required>
+            <h2>Salários Mensais:</h2>
+            <div id="salarios"></div>
+            <button type="button" onclick="adicionarSalario()">Adicionar Salário</button>
+            <button type="submit">Cadastrar Estagiário</button>
+        </form>
+        <div id="resultContainer" class="result"></div>
+    </div>
+
+    <img src="../IMAGENS/Captura de tela 2024-03-27 232838.png" alt="">
+
+</body>
+</html>
